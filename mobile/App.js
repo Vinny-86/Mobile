@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
 	return (
 		<View style={styles.container}>
-			<Text>App Mobile, Texto de teste de Branch</Text>
+			<Text>Texto de teste de Branch</Text>
 			<StatusBar style='auto' />
 		</View>
 	);
@@ -13,7 +13,7 @@ export default function App() {
 const styles = StyleSheet.create({
 	container: {
 		flex: 1,
-		backgroundColor: '#fff',
+		backgroundColor: '#f1f1f1',
 		alignItems: 'center',
 		justifyContent: 'center',
 	},
